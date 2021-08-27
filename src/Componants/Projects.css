@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+.Background{
+    background-image: url(../Media/liquid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fas, .fab{
+    color: orange;
+    font-size: 2vw;
+}
+
+ .toEnd{
+    transform: translateX(600px);
+    font-size: 1.5vw;
+    
+}
+
+
+.cTitle , .sTitle{
+    font-size: 2vw;
+    color: rgb(226, 172, 36);
+    font-family: 'Indie Flower'
+}
+
+.cText{
+    font-size: 1.1vw;
+    color: white;
+    font-family: 'Raleway';
+}
+
+
+
+
+ .imgTrans {
+     transform: translateX(-12px);
+ }
+
+
+
+ .roundBtm{
+    border-radius: 80px;
+    width: 98vw;
+ }
+
+ .sizeImg{
+     height: 50vw;
+     width: 50vw;
+ }
+
+ .roundedMain {
+     border-top-right-radius: 45px;
+     border-top-left-radius: 45px;
+ }
+
+ .miniGrid{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2,1fr);
+ }
+
+ .lStyle{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.iTitle{
+    color: white;
+    font-size: 4vw;
+    font-family: 'Rampart One'
+}
