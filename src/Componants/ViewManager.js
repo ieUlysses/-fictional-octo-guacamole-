@@ -42,7 +42,7 @@ export default function () {
                         Job hunt
                     </h1>
                     <p className="cText">
-                        Currenly I am seeking a new challenge in Fullstack or FrontEnd development. Adaptability, Resourcefullness and a Self-Starting nature are just a selection of the skills I would be pleased to bring to the table. You can find a copy of my Cv, Motivation and also a Zeugniss here  <a href="https://drive.google.com/file/d/1S9jHF7TLNNh0N7mi8TsuPj3fC1thV9Kl/view?usp=sharing" target="_blank"><i class="fas fa-paperclip"></i></a>
+                        Currenly I am seeking a new challenge in Fullstack or FrontEnd development. Adaptability, Resourcefullness and a Self-Starting nature are just a selection of the skills I would be pleased to bring to the table. You can find a copy of my Cv, Motivation and also a Zeugniss here  <a href="https://drive.google.com/file/d/1FXkm8g_NXmsrJ79L6bjmom5x3v_ArRqA/view?usp=sharing" target="_blank"><i class="fas fa-paperclip"></i></a>
                     </p>
                 </div>
 
