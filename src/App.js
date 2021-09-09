@@ -7,6 +7,7 @@ import About from "./Componants/About";
 import "./Componants/Projects.css"
 import Service from "./Componants/Projects";
 import Projects from "./Componants/Projects";
+import Forms from "./Componants/Forms";
 
 function App() {
   return (

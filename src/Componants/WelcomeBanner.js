@@ -14,6 +14,7 @@ export default function () {
                     </div>
                     <div className="col-7">
                         <p>
+                            Hej Da!
                             Welcome to my Portfolio, thanks for checking me out
                         </p>
                     </div>

@@ -32,7 +32,7 @@ export default function () {
                             </LinkContainer>
 
                             <LinkContainer to="/about">
-                                <Nav.Link href="#about">about</Nav.Link>
+                                <Nav.Link href="#about">About</Nav.Link>
                             </LinkContainer>
 
                         </Nav>
