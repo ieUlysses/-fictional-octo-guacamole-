@@ -17,7 +17,7 @@ export default function () {
 
             <div className=" container roundedMain Background d-flex flex-column mt-4" style={{ height: "55vh", width: "80vw" }}>
                 <h1 className="sTitle">
-                    Is this thing on?
+                    Hej Da
                 </h1>
 
                 <p className="cText w-50">
