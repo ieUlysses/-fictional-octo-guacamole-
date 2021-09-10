@@ -1,7 +1,7 @@
 import React from "react"
-import Cards from "../Componants/Cards"
+
 import TxtCard from "../Componants/Cards/TxtCard/TxtCard"
-import CardsvTwo from "../Componants/CardsvTwo"
+
 
 export default function () {
 
