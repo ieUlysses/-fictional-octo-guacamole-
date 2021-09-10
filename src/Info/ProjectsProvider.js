@@ -10,15 +10,26 @@ export default function () {
             Title: "FizzBuzz",
             Link: "https://www.telerik.com/kendo-react-ui/components/dateinputs/",
             Disc: "The classic, react Style",
+            Brief: "React"
         }, {
             Title: "PokeDex",
             Link: "",
-            Disc: "Pick your Pokemon",
+            Disc: "A cheap reproduction of the famous PokeDex, version 2.0is on its way....maybe",
+            Brief:
+                `Api, Axios, Hooks`
         },
         {
             Title: "Countries",
+            Link: `https://github.com/ieUlysses/Rest-Countries-revisited`,
+            Disc: "An easzy breazy project demonstrating useEffect & useState Styling is still in the works but final version will use material UI purely",
+            Brief: "Api, Axios, Hooks"
+        }
+        ,
+        {
+            Title: "This Portfolio",
             Link: "",
-            Disc: "An easzy breazy project demonstrating useEffect & useState",
+            Disc: "So, you want to see what makes this portfolio tick? ok, cute. There's a fair amount going on behind the scenes. future versions will hopefully use mainly pure material Ui",
+            Brief: "Material ui, ContextApi"
         }
     ]
 
@@ -29,6 +40,7 @@ export default function () {
                     Title={props.Title}
                     Disc={props.Disc}
                     Link={props.Link}
+                    Brief={props.Brief}
                 />)
             }
         </>
