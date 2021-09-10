@@ -9,8 +9,11 @@ import Service from "./Componants/Projects";
 import Projects from "./Componants/Projects";
 import Forms from "./Componants/Forms";
 
+import MyContext from "./Context/MyContext";
+
 function App() {
   return (
+
     <div className="App">
       <Router>
         <NavBar />

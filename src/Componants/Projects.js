@@ -1,28 +1,16 @@
 import React from "react"
-import AboutProvider from "../Info/AboutProvider"
+import { Grid } from "@material-ui/core"
+import TxtCard from "./Cards/TxtCard/TxtCard"
 import ProjectsProvider from "../Info/ProjectsProvider"
-import TechStack from "../Media/TechStack.svg"
+
 export default function () {
 
     return (
         <>
-
-
-            <div className="container roundedMain mt-5 Background d-flex flex-column text-center " style={{ height: "75vh", width: "80vw" }}>
-                <h1 className="sTitle">Please, feel free to check out my featured Projects
-                </h1>
-
-                <img src={TechStack} alt="TechStack" className="h-50" />
-
-                <div className="container d-flex justify-content-evenly h-50  align-items-center rounded"  >
-
-                    <ProjectsProvider />
-
-                </div>
-            </div>
-
-
+            {/* for background create a section, set 100% w+h then add classname={`${cName aboutBg}`} in css set .aboutBg & .aboutBg.active */}
+            <Grid container fluid/* direction="row" */ justifyContent="center" alignItems="center" spacing="5">
+                <ProjectsProvider />
+            </Grid>
         </>
-
     )
 }

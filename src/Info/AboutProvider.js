@@ -1,13 +1,15 @@
 import React from "react"
 import Cards from "../Componants/Cards"
-
+import TxtCard from "../Componants/Cards/TxtCard/TxtCard"
+import ImgCard from "../Componants/Cards/ImgCard/ImgCard"
 export default function () {
 
     const About = [
         {
             Title: "Gaisce, The presidents award",
             Link: "https://www.gaisce.ie/",
-            Disc: " Charity and Community work has always been close to my Heart from a young age. I earned my Gaisce Bronze award which saw me undertake a 2 day cycle with some fellow students, and also 13 weeks Community Involvement where I worked in a charity shop. After this experience I helped the following Gaisce Students assisting with fundraising and acting as a guide on the adventure journy",
+            Disc: ` Charity and Community work has always been close to my Heart from a young age. I earned my Gaisce Bronze award which saw me undertake a 2 day cycle with some fellow students  and also 13 weeks Community Involvement where I worked in a charity shop. After this experience I helped the following Gaisce Students assisting with fundraising and acting as a guide on the adventure journy`,
+
         }, {
             Title: "Habitat For Humanity",
             Link: "https://oldbawncs.ie/news/habitat-for-humanity-fundraisers-darts-and-comedy",
@@ -19,7 +21,7 @@ export default function () {
     return (
         <>
             {
-                About.map((props) => <Cards
+                About.map((props) => <ImgCard
                     Title={props.Title}
                     Disc={props.Disc}
                     Link={props.Link}

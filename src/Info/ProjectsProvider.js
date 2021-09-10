@@ -1,5 +1,6 @@
 import React from "react"
 import Cards from "../Componants/Cards"
+import TxtCard from "../Componants/Cards/TxtCard/TxtCard"
 import CardsvTwo from "../Componants/CardsvTwo"
 
 export default function () {
@@ -24,7 +25,7 @@ export default function () {
     return (
         <>
             {
-                Project.map((props) => <CardsvTwo
+                Project.map((props) => <TxtCard
                     Title={props.Title}
                     Disc={props.Disc}
                     Link={props.Link}
