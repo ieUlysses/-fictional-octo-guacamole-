@@ -8,7 +8,7 @@ export default function () {
     const Project = [
         {
             Title: "FizzBuzz",
-            Link: "https://www.telerik.com/kendo-react-ui/components/dateinputs/",
+            Link: "https://github.com/ieUlysses/FizzBuzz",
             Disc: "The classic, react Style",
             Brief: "React"
         }, {
@@ -27,7 +27,7 @@ export default function () {
         ,
         {
             Title: "This Portfolio",
-            Link: "",
+            Link: "https://github.com/ieUlysses/-fictional-octo-guacamole-",
             Disc: "So, you want to see what makes this portfolio tick? ok, cute. There's a fair amount going on behind the scenes. future versions will hopefully use mainly pure material Ui",
             Brief: "Material ui, ContextApi"
         }

@@ -66,7 +66,7 @@ export default function (props) {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <a href={props.Link}>
+                        <a href={props.Link} target="_blank">
                             <IconButton size="small"><GitHub className={`${colorIcon}`} /></IconButton>
                         </a>
                         <IconButton

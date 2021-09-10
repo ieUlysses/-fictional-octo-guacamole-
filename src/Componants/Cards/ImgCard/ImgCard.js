@@ -57,7 +57,7 @@ export default function MediaCard(props) {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <a href={props.Link}>
+                    <a href={props.Link} target="_blank">
                         <Button size="small" outlined color="primary">
                             Check it out
                         </Button>
