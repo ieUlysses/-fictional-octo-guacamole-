@@ -43,7 +43,7 @@ export default function (props) {
         <>
             <Grid item>
 
-                <Card className={` ${colorBg}`}>
+                <Card className={`${classes.root} ${colorBg}`}>
                     <CardContent>
                         <Typography className={`${classes.title} ${colorIcon}`} color="textSecondary" gutterBottom>
                             {props.Title}

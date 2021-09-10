@@ -32,6 +32,9 @@ export default function (props) {
     };
 
     const useStyles = makeStyles((theme) => ({
+        root: {
+            maxWidth: 175,
+        },
         expand: {
             transform: 'rotate(0deg)',
             marginLeft: 'auto',
@@ -52,7 +55,7 @@ export default function (props) {
         <>
 
             <Grid item>
-                <Card className={`${colorBg} `}>
+                <Card className={`${classes.root} ${colorBg} `}>
 
 
                     <CardContent>

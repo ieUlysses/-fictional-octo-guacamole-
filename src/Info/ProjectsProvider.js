@@ -16,7 +16,7 @@ export default function () {
             Link: "",
             Disc: "A cheap reproduction of the famous PokeDex, version 2.0is on its way....maybe",
             Brief:
-                `Api, Axios, Hooks`
+                `Api, Axios, Hooks thryserhshsh`
         },
         {
             Title: "Countries",
