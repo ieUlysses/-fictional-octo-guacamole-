@@ -1,9 +1,9 @@
-import IDev from "../Media/IDev.svg"
 import React, { useContext } from "react"
 
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 import "./Projects.css"
-
+import IDev from "../Media/IDev.svg"
+import IDevLight from "../Media/IDevLight.svg"
 
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
@@ -14,15 +14,11 @@ import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 
-
-
-
 import { Link } from 'react-router-dom';
 
-import Switch from "../Componants/Switch/SwitchWork"
 import ThemeButton from '../Componants/ThemeButton/ThemeButton';
 import MyContext from "../Context/MyContext"
-import SwitchR from "../Componants/Switch/SwitchWork";
+
 
 
 export default function () {
@@ -34,65 +30,34 @@ export default function () {
     let colorBg = ""
     let colorIcon = ""
     let navTog = ""
+    let logoCol = ""
     if (classN === "") {
         colorBg = "bg-light"
         colorIcon = "text-dark"
+        logoCol = IDevLight
 
 
     } else {
         colorBg = "bg-dark"
         colorIcon = "text-light"
         navTog = "bg-light"
+        logoCol = IDev
 
     }
 
 
     return (
         <>
-            {/* <Navbar bg="dark" variant="dark" className="roundBtm ">
-                <Container>
-                    <div className=" d-flex align-items-center">
-                        <Navbar.Brand href="#home">
-                            <img
-                                alt="Logo"
-                                src={IDev}
-                                width="80"
-                                height="75"
-                                className="d-inline-block align-center"
-                            />{' '}
-                            By James Conway
-                        </Navbar.Brand>
-
-                        <Nav className="d-flex  toEnd ">
-
-                            <LinkContainer to="/">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                            </LinkContainer>
-
-                            <LinkContainer to="/projects">
-                                <Nav.Link href="#link">Projects</Nav.Link>
-                            </LinkContainer>
-
-                            <LinkContainer to="/about">
-                                <Nav.Link href="#about">About</Nav.Link>
-                            </LinkContainer>
-
-                        </Nav>
-                    </div>
-                </Container>
-            </Navbar> */}
-
-
             <Navbar className={`${colorBg}`} expand="none">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
                             alt="Logo"
-                            src={IDev}
+                            src={logoCol}
                             width="80"
                             height="75"
                             className="d-inline-block align-center"
-                        />{' '}
+                        />
                         <span className={colorIcon}>By James Conway</span>
                     </Navbar.Brand>
 

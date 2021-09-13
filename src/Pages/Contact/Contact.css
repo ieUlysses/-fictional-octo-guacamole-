@@ -1,0 +1,23 @@
+.holder{
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display:  flex;
+ justify-items: center;
+
+}
+
+.CenterME{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top:  5vh;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}

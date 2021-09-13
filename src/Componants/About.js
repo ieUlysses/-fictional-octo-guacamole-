@@ -14,9 +14,9 @@ export default function (props) {
     console.log(props)
     return (
         <>
-            <div className="w-100 h-100 d-flex justify-items-center ">
+            <div className="w-100 d-flex justify-items-center ">
 
-                <div className="w-75 bg-warning rounded cME">
+                <div className="w-75 rounded cME">
                     <Grid container /* direction="row" */ justifyContent="center" alignItems="center" spacing="5">
                         <AboutProvider />
                     </Grid>
