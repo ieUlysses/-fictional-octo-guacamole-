@@ -1,9 +1,9 @@
 import React, { useContext } from "react"
 
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
-import "./Projects.css"
-import IDev from "../Media/IDev.svg"
-import IDevLight from "../Media/IDevLight.svg"
+
+import IDev from "../../Media/IDev.svg"
+import IDevLight from "../../Media/IDevLight.svg"
 
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
@@ -16,8 +16,8 @@ import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 
 import { Link } from 'react-router-dom';
 
-import ThemeButton from '../Componants/ThemeButton/ThemeButton';
-import MyContext from "../Context/MyContext"
+import ThemeButton from '../ThemeButton/ThemeButton';
+import MyContext from "../../Context/MyContext"
 
 
 

@@ -1,14 +1,11 @@
-
-
 import React from "react"
 
-import AboutProvider from "../Info/AboutProvider"
-
+import AboutProvider from "../../Info/AboutProvider"
+import "../Projects/Projects.css"
 import { Grid } from "@material-ui/core"
 
 
 
-import "./Projects.css"
 
 export default function (props) {
     console.log(props)

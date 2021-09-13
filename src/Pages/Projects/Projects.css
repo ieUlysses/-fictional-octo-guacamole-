@@ -2,7 +2,7 @@ body{
     background-color: black;
     width: 100%;
     height: 100vh;
-    background-image: url(../Media/darkMode.svg);
+    background-image: url(../../Media/darkMode.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }

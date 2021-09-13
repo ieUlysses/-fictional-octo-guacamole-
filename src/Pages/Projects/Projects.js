@@ -1,8 +1,9 @@
 import React from "react"
 import { Grid } from "@material-ui/core"
-import TxtCard from "./Cards/TxtCard/TxtCard"
-import ProjectsProvider from "../Info/ProjectsProvider"
+
+import ProjectsProvider from "../../Info/ProjectsProvider"
 import "./Projects.css"
+import TxtCard from "../../Componants/Cards/TxtCard/TxtCard"
 
 export default function () {
 
